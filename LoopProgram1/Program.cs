@@ -349,22 +349,22 @@ namespace LoopProgram1
             //}
             //Console.WriteLine(count);
 
-            //11.Generate Fibonacci series. 0,1, 1, 2, 3, 5,8..... k.where k<n . n is entered by user
+            11.Generate Fibonacci series. 0,1, 1, 2, 3, 5,8..... k.where k<n . n is entered by user
 
-            //Console.WriteLine("enter limit : ");
-            //int n = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("enter limit : ");
+            int n = Convert.ToInt32(Console.ReadLine());
 
-            //int n1 = 0, n2 = 1 ,n3;
+            int n1 = 0, n2 = 1, n3;
 
-            //Console.Write("fibonacci series : " + n1 + " "+ n2 );
+            Console.Write("fibonacci series : " + n1 + " " + n2);
 
-            //for(int i=2;i<n;i++)
-            //{
-            //    n3 = n1 + n2;
-            //    Console.Write(" "+n3+" ");
-            //    n1 = n2;
-            //    n2 = n3;
-            //}
+            for (int i = 2; i < n; i++)
+            {
+                n3 = n1 + n2;
+                Console.Write(" " + n3 + " ");
+                n1 = n2;
+                n2 = n3;//fibo code
+            }
 
             //2.Find the sum of all digits of a number. 
 
