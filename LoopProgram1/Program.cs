@@ -349,7 +349,7 @@ namespace LoopProgram1
             //}
             //Console.WriteLine(count);
 
-            11.Generate Fibonacci series. 0,1, 1, 2, 3, 5,8..... k.where k<n . n is entered by user
+            //11.Generate Fibonacci series. 0,1, 1, 2, 3, 5,8..... k.where k<n . n is entered by user
 
             Console.WriteLine("enter limit : ");
             int n = Convert.ToInt32(Console.ReadLine());
